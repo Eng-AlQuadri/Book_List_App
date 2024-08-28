@@ -1,0 +1,160 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #f09d51;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media(min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* End Global Rules */
+
+/* Start Styling */
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px auto;
+}
+
+h2 i {
+    color: rgb(80, 80, 216);
+}
+
+h2 .special-word {
+    color: rgb(80, 80, 216);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+input {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid rgb(80, 80, 216);
+    caret-color: rgb(80, 80, 216);
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 15px;
+    background-color: rgb(80, 80, 216);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    opacity: 0.5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+table {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+thead th {
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(80, 80, 216);
+    color: white;
+}
+
+tbody tr {
+    background-color: #ddd;
+}
+
+tbody td {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.remove-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove-book {
+    background-color: rgb(80, 80, 216);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: 0.3s;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.remove-book:hover {
+    opacity: 1;
+}
+
+/* End Styling */
